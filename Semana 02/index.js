@@ -8,8 +8,8 @@ personagem = {
     peso: 62,
     sexo: "masculino",
     raca: "Saijin",
-    DGZ:true
-    
+    DGZ:true,
+    habilidade: [" Kamehameha ", "Genki Dama"]
 }
 
 
@@ -24,8 +24,8 @@ personagem1 = {
     peso: 56,
     sexo: "masculino",
     raca: "Saijin",
-    DGZ:true
-    
+    DGZ:true,
+    habilidade: ["final flash ", "Big bang attack"]
 }
 
 
@@ -39,7 +39,8 @@ personagem2 = {
     peso: 44,
     sexo: "masculino",
     raca: "terráqueo",
-    DGZ: true
+    DGZ: true,
+    habilidade: []
      
 }
 
@@ -55,6 +56,5 @@ if(personagem.DGZ === true && personagem1.DGZ === true && personagem2.DGZ === tr
    
 
 }
-
 
 
